@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CryptoAux">
+      <UniqueIdentifier>{1e0b25bc-c96e-41ec-aa51-67b765d7d7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryptoRsa">
+      <UniqueIdentifier>{fc4c7b13-540f-4e95-af15-baf81900febc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryptoAux\Headers">
+      <UniqueIdentifier>{da8b0f54-26e1-478e-b8b7-98595ffb1b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryptoRsa\Headers">
+      <UniqueIdentifier>{53850108-d70a-43cb-b5c3-052ace994064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryptoAux\Source">
+      <UniqueIdentifier>{4028dd6d-06f4-497e-95c7-9059e244ede9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CryptoRsa\Source">
+      <UniqueIdentifier>{99e0607f-391c-48a1-8ded-e0c6f882ab3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls">
+      <UniqueIdentifier>{5f0ab555-2562-47ae-b3b4-3ce9c151f5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ Utilities">
+      <UniqueIdentifier>{3651fde6-2343-4de6-8b67-e06b88c6178b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls\Headers">
+      <UniqueIdentifier>{18d01e72-6cf9-4c56-b2d0-a9ecd06cb9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls\Source">
+      <UniqueIdentifier>{345b23ec-6569-44d8-a48d-4c9194c8ae09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ .NET Controls\Headers\EmbeddedControls">
+      <UniqueIdentifier>{f42de276-e18d-4632-a17e-19b8647d3349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ Utilities\CVFileIO">
+      <UniqueIdentifier>{205381f7-3a6b-4253-8221-dca3beda156d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CV++ Utilities\CVStructures">
+      <UniqueIdentifier>{39ac6c15-f0ec-4ab4-86fb-0382b8cf6da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{1ce19d24-dc35-4226-bd12-969c63bd3c57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureRandom.cpp">
+      <Filter>CryptoAux\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA512Password.cpp">
+      <Filter>CryptoAux\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SizableHash.cpp">
+      <Filter>CryptoAux\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AES256.cpp">
+      <Filter>CryptoAux\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RSAInt.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RSAKey.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RSAKeyGenerator.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RSALengthCalculator.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WienerAttack.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonModulusAttack.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Congruence.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FaultyKeyGenerator.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HastadAttack.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OAEPPadder.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimalityTester.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RSACipher.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RSAFactorization.cpp">
+      <Filter>CryptoRsa\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ Utilities\CVFileIO\CVAwfulCipher.cpp">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ Utilities\CVFileIO\FileManager.cpp">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ Utilities\CVFileIO\HuffmanCompression.cpp">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\DynamicControlCollection.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\LabelButton.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\MenuButton.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CV++ .NET Controls\RectangularBorder.cpp">
+      <Filter>CV++ .NET Controls\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonModForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptMessageForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FermatFactorForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FermatFaultyKeyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HastadExponentForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HastadForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyGenForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Toolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WienerFaultyKeyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WienerForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppIO.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="RSAKeyBinaryConverter.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureRandom.h">
+      <Filter>CryptoAux\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA512Password.h">
+      <Filter>CryptoAux\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SizableHash.h">
+      <Filter>CryptoAux\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AES256.h">
+      <Filter>CryptoAux\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyGenState.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OAEPPadder.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimalityTester.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSACipher.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSAFactorization.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSAKey.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSAKeyGenerator.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSALengthCalculator.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="WienerAttack.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonModulusAttack.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Congruence.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FaultyKeyGenerator.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HastadAttack.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RSAInt.h">
+      <Filter>CryptoRsa\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CVUtilities.h">
+      <Filter>CV++ Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO.h">
+      <Filter>CV++ Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures.h">
+      <Filter>CV++ Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\BackgroundTask.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\BigContinuedFraction.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\BSTree.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVHeap.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVPoint.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVQueue.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVRectangle.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVSize.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\CVStack.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\KeyedPair.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\QueueNode.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\StackNode.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVStructures\TreeNode.h">
+      <Filter>CV++ Utilities\CVStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\CVAwfulCipher.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\DataConverterBase.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\FileManager.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ Utilities\CVFileIO\HuffmanCompression.h">
+      <Filter>CV++ Utilities\CVFileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="CVNetControls.h">
+      <Filter>CV++ .NET Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\RectangularBorder.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SecondaryForm.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SimpleBox.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleControl.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledControl.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledControlBase.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\ColorFactory.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\ControlSingleList.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\ControlTitledList.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DynamicControl.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DynamicControlAligner.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DynamicControlCollection.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\IDynamicList.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButtonScheme.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\NumericLimiter.h">
+      <Filter>CV++ .NET Controls\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBox.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\SingleProgressBar.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBox.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledLabel.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledLabelList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledLabelTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledProgressBar.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledTextBox.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\CVEmbeddedControls.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\DoubleBufferedPanel.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButton.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButtonList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\LabelButtonTitledList.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+    <ClInclude Include="CV++ .NET Controls\MenuButton.h">
+      <Filter>CV++ .NET Controls\Headers\EmbeddedControls</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DAE1BBAC-6EBF-4DDB-B18F-378A1EC41C7E}</ProjectGuid>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>RsaSandbox2010</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+      <OptimizeReferences>false</OptimizeReferences>
+      <AdditionalOptions>/Od %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AES256.cpp" />
+    <ClCompile Include="CommonModulusAttack.cpp" />
+    <ClCompile Include="Congruence.cpp" />
+    <ClCompile Include="CV++ .NET Controls\DynamicControlCollection.cpp" />
+    <ClCompile Include="CV++ .NET Controls\LabelButton.cpp" />
+    <ClCompile Include="CV++ .NET Controls\MenuButton.cpp" />
+    <ClCompile Include="CV++ .NET Controls\RectangularBorder.cpp" />
+    <ClCompile Include="CV++ Utilities\CVFileIO\CVAwfulCipher.cpp" />
+    <ClCompile Include="CV++ Utilities\CVFileIO\FileManager.cpp" />
+    <ClCompile Include="CV++ Utilities\CVFileIO\HuffmanCompression.cpp" />
+    <ClCompile Include="FaultyKeyGenerator.cpp" />
+    <ClCompile Include="HastadAttack.cpp" />
+    <ClCompile Include="OAEPPadder.cpp" />
+    <ClCompile Include="PrimalityTester.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="RSACipher.cpp" />
+    <ClCompile Include="RSAFactorization.cpp" />
+    <ClCompile Include="RSAInt.cpp" />
+    <ClCompile Include="RSAKey.cpp" />
+    <ClCompile Include="RSAKeyGenerator.cpp" />
+    <ClCompile Include="RSALengthCalculator.cpp" />
+    <ClCompile Include="SecureRandom.cpp" />
+    <ClCompile Include="SHA512Password.cpp" />
+    <ClCompile Include="SizableHash.cpp" />
+    <ClCompile Include="WienerAttack.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AES256.h" />
+    <ClInclude Include="AppIO.h" />
+    <ClInclude Include="CommonModForm.h" />
+    <ClInclude Include="CommonModulusAttack.h" />
+    <ClInclude Include="Congruence.h" />
+    <ClInclude Include="CV++ .NET Controls\ColorFactory.h" />
+    <ClInclude Include="CV++ .NET Controls\ControlSingleList.h" />
+    <ClInclude Include="CV++ .NET Controls\ControlTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\CVEmbeddedControls.h" />
+    <ClInclude Include="CV++ .NET Controls\DoubleBufferedPanel.h" />
+    <ClInclude Include="CV++ .NET Controls\DynamicControl.h" />
+    <ClInclude Include="CV++ .NET Controls\DynamicControlAligner.h" />
+    <ClInclude Include="CV++ .NET Controls\DynamicControlCollection.h" />
+    <ClInclude Include="CV++ .NET Controls\IDynamicList.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButton.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButtonList.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButtonScheme.h" />
+    <ClInclude Include="CV++ .NET Controls\LabelButtonTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\MenuButton.h" />
+    <ClInclude Include="CV++ .NET Controls\NumericLimiter.h" />
+    <ClInclude Include="CV++ .NET Controls\RectangularBorder.h" />
+    <ClInclude Include="CV++ .NET Controls\SecondaryForm.h" />
+    <ClInclude Include="CV++ .NET Controls\SimpleBox.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBox.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxList.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleCheckBoxTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleControl.h" />
+    <ClInclude Include="CV++ .NET Controls\SingleProgressBar.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBox.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledCheckBoxTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledControl.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledControlBase.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledLabel.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledLabelList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledLabelTitledList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledProgressBar.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledTextBox.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxList.h" />
+    <ClInclude Include="CV++ .NET Controls\TitledTextBoxTitledList.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\CVAwfulCipher.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\DataConverterBase.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\FileManager.h" />
+    <ClInclude Include="CV++ Utilities\CVFileIO\HuffmanCompression.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\BackgroundTask.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\BigContinuedFraction.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\BSTree.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVHeap.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVPoint.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVQueue.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVRectangle.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVSize.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\CVStack.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\KeyedPair.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\QueueNode.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\StackNode.h" />
+    <ClInclude Include="CV++ Utilities\CVStructures\TreeNode.h" />
+    <ClInclude Include="CVNetControls.h" />
+    <ClInclude Include="CVUtilities.h" />
+    <ClInclude Include="EncryptMessageForm.h" />
+    <ClInclude Include="FaultyKeyGenerator.h" />
+    <ClInclude Include="FermatFactorForm.h" />
+    <ClInclude Include="FermatFaultyKeyForm.h" />
+    <ClInclude Include="HastadAttack.h" />
+    <ClInclude Include="HastadExponentForm.h" />
+    <ClInclude Include="HastadForm.h" />
+    <ClInclude Include="KeyGenForm.h" />
+    <ClInclude Include="KeyGenState.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="OAEPPadder.h" />
+    <ClInclude Include="PasswordForm.h" />
+    <ClInclude Include="PrimalityTester.h" />
+    <ClInclude Include="RSACipher.h" />
+    <ClInclude Include="RSAFactorization.h" />
+    <ClInclude Include="RSAInt.h" />
+    <ClInclude Include="RSAKey.h" />
+    <ClInclude Include="RSAKeyBinaryConverter.h" />
+    <ClInclude Include="RSAKeyGenerator.h" />
+    <ClInclude Include="RSALengthCalculator.h" />
+    <ClInclude Include="SecureRandom.h" />
+    <ClInclude Include="SHA512Password.h" />
+    <ClInclude Include="SizableHash.h" />
+    <ClInclude Include="Toolbox.h" />
+    <ClInclude Include="WienerAttack.h" />
+    <ClInclude Include="WienerFaultyKeyForm.h" />
+    <ClInclude Include="WienerForm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

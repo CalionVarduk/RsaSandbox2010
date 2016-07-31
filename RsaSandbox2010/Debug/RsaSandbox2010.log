@@ -1,0 +1,51 @@
+﻿Build started 2016-07-31 05:47:41.
+     1>Project "C:\Users\Calion\Desktop\RsaSandbox2010\RsaSandbox2010\RsaSandbox2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\RsaSandbox2010.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Numerics.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Program.cpp /clr:nostdlib 
+         Program.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Calion\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Calion\Desktop\RsaSandbox2010\Debug\RsaSandbox2010.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\RsaSandbox2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Calion\Desktop\RsaSandbox2010\Debug\RsaSandbox2010.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /OPT:NOREF /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\AES256.obj
+         Debug\CommonModulusAttack.obj
+         Debug\Congruence.obj
+         Debug\DynamicControlCollection.obj
+         Debug\LabelButton.obj
+         Debug\MenuButton.obj
+         Debug\RectangularBorder.obj
+         Debug\CVAwfulCipher.obj
+         Debug\FileManager.obj
+         Debug\HuffmanCompression.obj
+         Debug\FaultyKeyGenerator.obj
+         Debug\HastadAttack.obj
+         Debug\OAEPPadder.obj
+         Debug\PrimalityTester.obj
+         Debug\Program.obj
+         Debug\RSACipher.obj
+         Debug\RSAFactorization.obj
+         Debug\RSAInt.obj
+         Debug\RSAKey.obj
+         Debug\RSAKeyGenerator.obj
+         Debug\RSALengthCalculator.obj
+         Debug\SecureRandom.obj
+         Debug\SHA512Password.obj
+         Debug\SizableHash.obj
+         Debug\WienerAttack.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj" /Od 
+     1>LINK : warning LNK4044: unrecognized option '/Od'; ignored
+     1>LINK : warning LNK4044: unrecognized option '/Od'; ignored
+         RsaSandbox2010.vcxproj -> C:\Users\Calion\Desktop\RsaSandbox2010\Debug\RsaSandbox2010.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Calion\Desktop\RsaSandbox2010\Debug\RsaSandbox2010.exe;#1" /manifest Debug\RsaSandbox2010.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\RsaSandbox2010.unsuccessfulbuild".
+         Touching "Debug\RsaSandbox2010.lastbuildstate".
+     1>Done Building Project "C:\Users\Calion\Desktop\RsaSandbox2010\RsaSandbox2010\RsaSandbox2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.54
